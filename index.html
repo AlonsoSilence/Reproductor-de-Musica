@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="es"> 
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Welcome a this page</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width , initial-scale=1 ,maximum-scale=1" />
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/jquery.flipster.min.css">
+    <link rel="stylesheet" href="css/flipsternavtabs.css">
+</head>
+<body>
+<header>
+	<h1>Bienvenidos al Home</h1>
+</header>
+<section id="Main-Content">
+	<header>
+		<h2>Seleccione alguna Artista</h2>
+	</header>
+	
+	<ul id="artistas">
+		<li id="shakira" class="artista-active">
+			<figure>
+				<img src="img/Shakira.jpg" alt="">
+			</figure>
+			<a href="#">Shakira</a>
+			
+		</li>
+		<li id="beyonce" >
+			<figure>
+				<img src="img/beyonce.jpg" alt="">
+			</figure>
+			<a href="#">Beyonce</a>
+			
+		</li>
+		<li id="taylor" >
+			<figure>
+				<img src="img/taylor.jpg" alt="">
+			</figure>
+			<a href="#">Taylor Swift</a>
+			
+		</li>
+		<li id="katy" >
+			<figure>
+				<img src="img/katy.jpg" alt="">
+			</figure>
+			<a href="#">Katy Perry</a>
+			
+		</li>
+		
+	</ul>
+	
+</section>
+
+
+<section id="playlist">
+	
+	<article class="reproductor">
+		<audio src="media/uclear.mp3" controls autoplay loop> 
+	        HTML5 audio not supported
+	    </audio>
+
+	    <figure>
+			<img src="img/play.png" alt="">
+	    </figure>
+	    
+	</article>
+
+	<article class="canciones">
+		<ul class="list">
+		<h2>Lista de Canciones</h2>
+
+			<li id="album-shakira" class="lista list-active">
+			
+				<h3 class="title icon-flag2">Album "Shakira"</h3>
+
+				<ul class="lista-contenido">
+
+					
+					<li id="sencillo-1-shakira" class="cancion">
+
+						<p class="cancion-titulo">
+							<span>Antologia</span>
+							Sencillo 1
+						</p>
+						<p class="icon-document icono"></p>
+						<p class="icon-clock2 cancion-tipo">3:00</p>
+
+					</li>
+					<li id="sencillo-2-shakira" class="cancion">
+
+						<p class="cancion-titulo">
+							<span>Ojos Asi</span>
+							Sencillo 2
+						</p>
+						<p class="icon-document icono"></p>
+						<p class="icon-clock2 cancion-tipo">3:00</p>
+
+					</li>
+					<li id="sencillo-3-shakira" class="cancion">
+
+						<p class="cancion-titulo">
+							<span>Te aviso, te anuncio</span>
+							Sencillo 3
+						</p>
+						<p class="icon-document icono"></p>
+						<p class="icon-clock2 cancion-tipo">3:00</p>
+
+					</li>
+
+				</ul>
+			</li>
+			
+			<li id="album-katy" class="lista">
+			
+				<h3 class="title icon-flag2">Album "Katy Perry"</h3>
+
+				<ul class="lista-contenido">
+
+					
+					<li id="sencillo-1-katy" class="cancion">
+
+						<p class="cancion-titulo">
+							<span>Dark Horse</span>
+							Sencillo 1
+						</p>
+						<p class="icon-document icono"></p>
+						<p class="icon-clock2 cancion-tipo">3:00</p>
+
+					</li>
+					<li id="sencillo-2-katy" class="cancion">
+
+						<p class="cancion-titulo">
+							<span>Last Friday</span>
+							Sencillo 2
+						</p>
+						<p class="icon-document icono"></p>
+						<p class="icon-clock2 cancion-tipo">3:00</p>
+
+					</li>
+					<li id="sencillo-3-katy" class="cancion">
+
+						<p class="cancion-titulo">
+							<span>Road</span>
+							Sencillo 3
+						</p>
+						<p class="icon-document icono"></p>
+						<p class="icon-clock2 cancion-tipo">3:00</p>
+
+					</li>
+
+				</ul>
+			</li>
+
+			<li id="album-beyonce" class="lista">
+			
+				<h3 class="title icon-flag2">Album "Beyonce"</h3>
+
+				<ul class="lista-contenido">
+
+					
+					<li id="sencillo-1-beyonce" class="cancion">
+
+						<p class="cancion-titulo">
+							<span>Diva</span>
+							Sencillo 1
+						</p>
+						<p class="icon-document icono"></p>
+						<p class="icon-clock2 cancion-tipo">3:00</p>
+
+					</li>
+					<li id="sencillo-2-beyonce" class="cancion">
+
+						<p class="cancion-titulo">
+							<span>Run the World</span>
+							Sencillo 2
+						</p>
+						<p class="icon-document icono"></p>
+						<p class="icon-clock2 cancion-tipo">3:00</p>
+
+					</li>
+					
+					<li id="sencillo-3-beyonce" class="cancion">
+
+						<p class="cancion-titulo">
+							<span>Single Ladies</span>
+							Sencillo 3
+						</p>
+						<p class="icon-document icono"></p>
+						<p class="icon-clock2 cancion-tipo">3:00</p>
+
+					</li>
+
+				</ul>
+			</li>
+			
+			<li id="album-taylor" class="lista">
+			
+				<h3 class="title icon-flag2">Album "Taylor Swift"</h3>
+
+				<ul class="lista-contenido">
+
+					
+					<li id="sencillo-1-taylor" class="cancion">
+
+						<p class="cancion-titulo">
+							<span>Blank Space</span>
+							Sencillo 1
+						</p>
+						<p class="icon-document icono"></p>
+						<p class="icon-clock2 cancion-tipo">3:00</p>
+
+					</li>
+					<li id="sencillo-2-taylor" class="cancion">
+
+						<p class="cancion-titulo">
+							<span>Shake it Off</span>
+							Sencillo 2
+						</p>
+						<p class="icon-document icono"></p>
+						<p class="icon-clock2 cancion-tipo">3:00</p>
+
+					</li>
+					<li id="sencillo-3-taylor" class="cancion">
+
+						<p class="cancion-titulo">
+							<span>You Belong With me</span>
+							Sencillo 3
+						</p>
+						<p class="icon-document icono"></p>
+						<p class="icon-clock2 cancion-tipo">3:00</p>
+
+					</li>
+
+				</ul>
+			</li>
+		</ul>
+	</article>
+
+</section>
+
+<script src="js/jquery.js"></script>
+<script src="js/reproductor.js"></script>
+</script>
+</body>
+</html>
